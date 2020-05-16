@@ -13,15 +13,22 @@
         <activity android:name=".CommentsActivity" />
         <activity android:name=".Login" />
         <activity android:name=".SignUp">
+
+        </activity>
+        <activity
+            android:name="Adapter.Main2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity
-            android:name="Adapter.Main2Activity"
+
+
+
             android:label="@string/title_activity_main2"
+
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity" />
     </application>
